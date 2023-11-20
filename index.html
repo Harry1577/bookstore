@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Web Development Bookstore</title>
+</head>
+<body>
+    <header>
+        <h1>Web Development Bookstore</h1>
+    </header>
+    
+    <main>
+        <section id="webDevelopmentBooks" class="bookSection">
+            <h2>Web Development Books</h2>
+            <div id="webDevelopmentBookList" class="bookContainer">
+                <!-- Web development books will be displayed here dynamically -->
+            </div>
+        </section>
+
+        <section id="frontendBooks" class="bookSection">
+            <h2>Frontend Development Books</h2>
+            <div id="frontendBookList" class="bookContainer">
+                <!-- Frontend development books will be displayed here dynamically -->
+            </div>
+        </section>
+
+        <section id="backendBooks" class="bookSection">
+            <h2>Backend Development Books</h2>
+            <div id="backendBookList" class="bookContainer">
+                <!-- Backend development books will be displayed here dynamically -->
+            </div>
+        </section>
+
+        <section id="contact" class="contactSection">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or need assistance, feel free to get in touch with us.</p>
+            <address>
+                <strong>Web Development Bookstore</strong><br>
+                Email: <a href="mailto:info@example.com">info@example.com</a><br>
+                Phone: (123) 456-7890
+            </address>
+        </section>
+        
+        <section id="feedback" class="feedbackSection">
+            <h2>Give Us Your Feedback</h2>
+            <p>We appreciate your feedback! Share your thoughts to help us improve.</p>
+            <form id="feedbackForm">
+                <label for="feedbackName">Your Name:</label>
+                <input type="text" id="feedbackName" name="feedbackName" required>
+                <br>
+                <label for="feedbackEmail">Your Email:</label>
+                <input type="email" id="feedbackEmail" name="feedbackEmail" required>
+                <br>
+                <label for="feedbackText">Your Feedback:</label>
+                <textarea id="feedbackText" name="feedbackText" rows="4" cols="50" required></textarea>
+                <br>
+                <button type="submit">Submit Feedback</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
